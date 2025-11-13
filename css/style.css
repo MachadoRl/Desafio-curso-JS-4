@@ -1,0 +1,27 @@
+section {
+    max-width: 70%;
+}
+
+img {
+    border-radius: 100%;
+}
+
+@media (min-width: 1200px) {
+    section {
+        max-width: 50%;
+    }
+}
+
+.btn {
+    max-width: 100px;
+}
+
+.form-select {
+    width: 80%;
+}
+
+@media (min-width: 1040px) {
+    .form-select {
+        width: 25%;
+    }
+}
